@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <blueacorn translate="title" module="blueacorn_timemachine">
+                                        <title>Blue Acorn</title>
+                                    </blueacorn>
+                                    <blueacorn_timemachine translate="title" module="blueacorn_timemachine">
+                                        <title>Time Machine</title>
+                                    </blueacorn_timemachine>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>
