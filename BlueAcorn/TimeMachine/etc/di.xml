@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../lib/internal/Magento/Framework/ObjectManager/etc/config.xsd">
+    <type name="Magento\Framework\Stdlib\DateTime\Timezone">
+        <plugin name="storeTimeStamp" type="BlueAcorn\TimeMachine\Model\Timezone" sortOrder="100" />
+    </type>
+
+
+    <!--<preference for="Magento\Framework\Stdlib\DateTime\" type="BlueAcorn\TimeMachine\Block\Product\View\Description" />-->
+    <!--<preference for="Magento\Framework\App\FrontController" type="Training\Test\Controller\Test" />-->
+</config>

@@ -1,0 +1,10 @@
+<?php if($this->_currentBlock->_helper->getTimeMachineEnabled()): ?>
+<div id="blueacorn_timemachine">
+  <span>Time Machine</span>
+  <div id="blueacorn_timemachine_controls">
+    <input type="text" id="datepicker">
+    <input type="button" onclick="timemachine.update()" value="Engage">
+    <input type="button" onclick="timemachine.reset()" value="Reset">
+  </div>
+</div>
+<?php endif ?>
