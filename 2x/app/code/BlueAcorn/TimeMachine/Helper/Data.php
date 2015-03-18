@@ -1,5 +1,7 @@
 <?php
 
+set_include_path(get_include_path() . PATH_SEPARATOR . BP.'/lib/');
+
 namespace BlueAcorn\TimeMachine\Helper;
 
 class Data extends \Magento\Framework\App\Helper\AbstractHelper {
