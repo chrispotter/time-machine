@@ -7,4 +7,9 @@ class BlueAcorn_TimeMachine_Shared {
     {
         return 'Hello World';
     }
+
+    public function getTemplate()
+    {
+        return 'current_directory'.'templates/timemachine.phtml';
+    }
 }
