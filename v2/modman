@@ -3,6 +3,6 @@ code/etc					app/code/BlueAcorn/TimeMachine/etc
 code/Helper					app/code/BlueAcorn/TimeMachine/Helper
 code/Model					app/code/BlueAcorn/TimeMachine/Model
 code/view					app/code/BlueAcorn/TimeMachine/view
-../common/lib                  lib/BlueAcorn/TimeMachine/
+../common/lib                  lib/internal/BlueAcorn/TimeMachine/
 ../common/templates/*			app/code/BlueAcorn/TimeMachine/view/templates
 ../common/js/*			app/code/BlueAcorn/TimeMachine/view/web/js

@@ -1,6 +1,14 @@
 <?php
 
-set_include_path(get_include_path() . PATH_SEPARATOR . BP.'/lib/');
+/**
+ * Initially we wanted to have the same path for the lib files relative to both frameworks, but Magento 2 adds an
+ * internal directory and screws everything up. Our workaround was to add this set_include_path.
+ *
+ * Eventually we decided we'd always want to install modules with modman, so might as well place the lib for magento 2
+ * in the lib/internal folder like the framework wants, and it all worked out.
+ */
+
+    // set_include_path(get_include_path() . PATH_SEPARATOR . BP.'/lib/');
 
 namespace BlueAcorn\TimeMachine\Helper;
 

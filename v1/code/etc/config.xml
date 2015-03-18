@@ -42,7 +42,7 @@
         <layout>
             <updates>
                 <blueacorn_timemachine>
-                    <file>blueacorn/blueacorn_timemachine.xml</file>
+                    <file>blueacorn_timemachine.xml</file>
                 </blueacorn_timemachine>
             </updates>
         </layout>
