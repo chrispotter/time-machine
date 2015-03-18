@@ -1,5 +1,5 @@
 code					app/code/community/BlueAcorn/TimeMachine/
 frontend/layout/*			app/design/frontend/base/default/layout/
-frontend/template/*			app/design/frontend/base/default/template/
 BlueAcorn_TimeMachine.xml	app/etc/modules/BlueAcorn_TimeMachine.xml
-../lib                         lib/BlueAcorn/TimeMachine/
+../lib/*                         lib/BlueAcorn/TimeMachine/
+../templates/*			app/design/frontend/base/default/template/

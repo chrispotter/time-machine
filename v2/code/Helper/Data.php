@@ -8,6 +8,7 @@ class Data extends \Magento\Framework\App\Helper\AbstractHelper {
 
     protected $_session;
     protected $_auth;
+    public $_common;
 
     public function __construct(
         \Magento\Framework\App\Config\ScopeConfigInterface $scopeConfig,
@@ -18,6 +19,7 @@ class Data extends \Magento\Framework\App\Helper\AbstractHelper {
         $this->_scopeConfig = $scopeConfig;
         $this->_session = $session;
         $this->_auth = $auth;
+        $this->_common = new BlueAcorn_TimeMachine_Shared();
     }
 
     protected function getConfig($path){

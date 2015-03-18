@@ -7,6 +7,14 @@
  */ 
 class BlueAcorn_TimeMachine_Helper_Data extends Mage_Core_Helper_Abstract {
 
+  public $_common;
+
+    public function __construct()
+    {
+        $this->_common = new BlueAcorn_TimeMachine_Shared();
+        return parent::__construct();
+    }
+
   protected function getConfig($path){
     return Mage::getStoreConfig('blueacorn_timemachine/general/'.$path);
   }

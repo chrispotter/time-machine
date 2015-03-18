@@ -1,2 +1,7 @@
-code					app/code/BlueAcorn/TimeMachine/
-../lib                         lib/BlueAcorn/TimeMachine/
+code/Block					app/code/BlueAcorn/TimeMachine/Block
+code/etc					app/code/BlueAcorn/TimeMachine/etc
+code/Helper					app/code/BlueAcorn/TimeMachine/Helper
+code/Model					app/code/BlueAcorn/TimeMachine/Model
+code/view					app/code/BlueAcorn/TimeMachine/view
+../lib                  lib/BlueAcorn/TimeMachine/
+../templates/*			app/code/BlueAcorn/TimeMachine/view/templates
